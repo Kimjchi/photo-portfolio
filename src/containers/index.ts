@@ -5,8 +5,6 @@ import Footer from './Footer/Footer.tsx';
 import Gallery from './Gallery/Gallery.tsx';
 import Header from './Header/Header.tsx';
 import Intro from './Intro/Intro.tsx';
-import Laurels from './Laurels/Laurels.tsx';
-import SpecialMenu from './Menu/Menu.tsx';
 
 export {
   AboutUs,
@@ -16,6 +14,4 @@ export {
   Gallery,
   Header,
   Intro,
-  Laurels,
-  SpecialMenu,
 };

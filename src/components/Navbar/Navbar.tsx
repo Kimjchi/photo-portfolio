@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="app__navbar-login">
         <a href="#login" className="p__opensans">Log In / Registration</a>
         <div />
-        <a href="/" className="p__opensans">Book Table</a>
+        <a href="/" className="p__opensans">Book a photoshoot</a>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
