@@ -11,7 +11,7 @@ export default function Chef() {
             <img src={images.chef} alt="chef_image" />
             </div>
             <div className="app__wrapper_info">
-            <SubHeading title="Chef's word" />
+            <SubHeading title="Inspiration" />
             <h1 className="headtext__cormorant">What we believe in</h1>
 
             <div className="app__chef-content">
@@ -22,7 +22,7 @@ export default function Chef() {
                 </p>
                 </div>
                 <p className="p__opensans">
-                    Even though it's a Miles Davis quote, it works for photography and pretty much everything.
+                    Even though it's a Miles Davis quote, it works for photography and pretty much everything in life.
                 </p>
             </div>
 
