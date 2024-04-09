@@ -14,7 +14,7 @@ export default function Header() {
                 I created this website to showcase my photography work and at the same time practice my react skills. 
                 I have a passion for capturing the world around me, especially people. I hope you enjoy my work.
             </p>
-            <button type="button" className="custom__button">Explore Gallery</button>
+            <a href="#gallery"><button type="button" className="custom__button">Explore Gallery</button></a>
             </div>
 
             <div className="app__wrapper_img">

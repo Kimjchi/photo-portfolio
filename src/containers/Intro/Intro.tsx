@@ -9,7 +9,7 @@ export default function Intro(): JSX.Element {
     const vidRef  = useRef<HTMLVideoElement>(null);
 
     return (
-        <div className="app__video">
+        <div className="app__video" id="camera">
             <video
                 ref={vidRef}
                 src={meal}
