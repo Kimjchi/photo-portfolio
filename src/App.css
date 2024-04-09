@@ -175,3 +175,9 @@
     line-height: 70px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .section__padding {
+      padding: 5rem 12rem;
+  }
+}

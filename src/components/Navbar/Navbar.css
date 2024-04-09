@@ -5,7 +5,7 @@
     align-items: center;
     background: var(--color-black);
 
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
 }
 
 .app__navbar-logo {
@@ -16,6 +16,16 @@
 
 .app__navbar-logo img {
     width: 150px;
+}
+
+.app__navbar-logotext {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 41.6px;
 }
 
 .app__navbar-links {

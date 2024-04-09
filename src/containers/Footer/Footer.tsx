@@ -21,7 +21,7 @@ export default function Footer() {
             </div>
 
             <div className="app__footer-links_logo">
-                <img src={images.gericht} alt="footer_logo" />
+                <h1 className="app__footer-headtext">KIMJCHI</h1>
                 <p className="p__opensans">&quot;I'm gonna put a curse on you and all your kids will be born completely naked.&quot;</p>
                 <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} alt="spoon"/>
                 <div className="app__footer-links_icons">

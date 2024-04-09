@@ -1,7 +1,6 @@
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
-import images from '../../constants/images.ts';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -9,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.gericht} alt="app__logo" />
+        <h1 className="app__navbar-logotext">KIMJCHI</h1>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
