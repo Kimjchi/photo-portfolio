@@ -1,18 +1,40 @@
-import React from 'react';
+import React, { useRef, useState } from "react";
+import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 
 import './Intro.css';
 
 export default function Intro(): JSX.Element {
+    const [playVideo, setPlayVideo] = useState(false);
+    const vidRef  = useRef<HTMLVideoElement>(null);
 
     return (
         <div className="app__video" id="camera">
-            <iframe 
-                src="https://www.youtube.com/embed/NNmZuQyAsPU?si=CSrNnOSVaTWCdglm" 
-                title="YouTube video player" 
-                frameBorder={0}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowFullScreen
+            <video
+                ref={vidRef}
+                src="https://strapi-production-e78b.up.railway.app/uploads/meal_2c806609ff.mp4"
+                loop
+                controls={false}
             />
-        </div>
+
+            <div className="app__video-overlay flex__center">
+                <div
+                className="app__video-overlay_circle flex__center"
+                onClick={() => {
+                    setPlayVideo(!playVideo);
+                    if (playVideo) {
+                    vidRef.current?.pause();
+                    } else {
+                    vidRef?.current?.play();
+                    }
+                }}
+                >
+                {playVideo ? (
+                    <BsPauseFill color="#fff" fontSize={30} />
+                ) : (
+                    <BsFillPlayFill color="#fff" fontSize={30} />
+                )}
+                </div>
+            </div>
+            </div>
     )
 }
