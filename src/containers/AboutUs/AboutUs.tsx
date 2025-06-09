@@ -17,7 +17,7 @@ export default function AboutUs() {
                 <p className="p__opensans">
                     My name is Jérémy Kim and I'm a full-stack developer with a passion for photography, drawings, creative stuff!
                 </p>
-                <a href="https://strapi-production-e78b.up.railway.app/uploads/CV_2024_bb37cde0c3.pdf" target="blank">
+                <a href="https://strapi-production-e78b.up.railway.app/uploads/CV_2024_bb37cde0c3_1595d47730.pdf" target="blank">
                     <button type="button" className="custom__button">Know More</button>
                 </a>
             </div>
@@ -33,7 +33,7 @@ export default function AboutUs() {
                     Younger, I always followed the path that was drawn for me. I was a good student, I went to college, I got a job. 
                     But something was missing. I needed to create, to express myself. That's why I'm exploring all kinds of art medium.
                 </p>
-                <a href="https://strapi-production-e78b.up.railway.app/uploads/CV_2024_bb37cde0c3.pdf" target="blank">
+                <a href="https://strapi-production-e78b.up.railway.app/uploads/CV_2024_bb37cde0c3_1595d47730.pdf" target="blank">
                     <button type="button" className="custom__button">Know More</button>
                 </a>
             </div>

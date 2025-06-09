@@ -11,7 +11,7 @@ export default function Intro(): JSX.Element {
         <div className="app__video" id="camera">
             <video
                 ref={vidRef}
-                src="https://strapi-production-e78b.up.railway.app/uploads/meal_77ac5c61e3.mp4"
+                src="https://strapi-production-e78b.up.railway.app/uploads/meal_718f1e722b.mp4"
                 loop
                 controls={false}
             />
